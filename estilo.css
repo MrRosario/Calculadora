@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+
+#c, #bottoes, ul{ width: 180px; margin-left: 10px;}
+
+#campo
+{
+	position: relative;
+	top: -10px;
+	width: 160px;
+	border:1px solid #666; 
+	height: 30px; 
+	margin: 2px; 
+	padding-right: 5px;
+	text-align:right;
+	Background-color: #F5F5F5;
+	border-radius: 4px;
+}
+
+#c{margin-bottom:2px; }
+
+#bottoes input
+{ 
+	position: relative;
+	top: -10px;
+	cursor: pointer;
+	float: left; 
+	width: 30px;
+	height: 30px; 
+	border:1px solid #333;
+	background: #000;
+	color: #fff;
+	display: inline;
+	margin: 2px;
+	border-radius: 4px;
+}
+
+#bottoes input:hover{background:#333; color: #fff; }
+
+#layer
+{ 
+	position: absolute;
+	padding-top: 40px;
+	border-radius: 5px;
+	top: 100px; 
+	left: 400px;
+	border: #000 solid 1px;
+	height: 190px;
+	width: 190px;
+	Background-color: #DCDCDC;
+}
+
